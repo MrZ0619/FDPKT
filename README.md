@@ -57,7 +57,7 @@ Where:
 
 # Setups
 
-__Environment__:
+## Environment Requirements
 
 * Linux operating system
 * Python 3+
@@ -66,6 +66,60 @@ __Environment__:
 * numpy 1.19.2+
 * pandas
 * tqdm 4.54.1+
+
+## Installation Steps
+
+### 1. Clone the Repository
+
+```bash
+git clone <repository_url>
+cd FDPKT
+```
+
+### 2. Create a Virtual Environment (Recommended)
+
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Linux/macOS:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Prepare the Dataset
+
+Download the dataset and place it in the corresponding directory:
+
+* BePKT: `data/BePKT/`
+* AtCoder_C: `data/Atcoder_C/`
+* AIZU_Cpp: `data/AIZU_Cpp/`
+
+Each dataset directory should contain `train.csv`, `valid.csv`, and `test.csv`.
+
+### 5. Verify Installation
+
+To verify that all dependencies are installed correctly, you can run:
+
+```bash
+python -c "import torch; import numpy; import pandas; import sklearn; import tqdm; print('All dependencies installed successfully!')"
+```
+
+## Quick Start
+
+Run FDPKT on the BePKT dataset with default settings:
+
+```bash
+python main.py --dataset BePKT
+```
 
 # Running FDPKT
 

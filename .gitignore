@@ -1,9 +1,10 @@
 __pycache__/
 *.pkl
 *.ckpt
+!requirements.txt
 *.txt
 *.zip
-data/
+!data/
 result/
 model/
 experiment_logs/
