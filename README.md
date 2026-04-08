@@ -115,22 +115,17 @@ python -c "import torch; import numpy; import pandas; import sklearn; import tqd
 
 ## Quick Start
 
-Run FDPKT on the BePKT dataset with default settings:
+Run FDPKT with default settings (trains on all three datasets: BePKT, AtCoder_C, AIZU_Cpp):
 
 ```bash
-python main.py --dataset BePKT
+python main.py
 ```
 
 # Running FDPKT
 
-Example for using FDPKT model (on BePKT dataset):
-```
-python main.py --dataset BePKT
-```
-
 Example for using FDPKT with custom parameters:
 ```
-python main.py --dataset BePKT --dropout 0.3 --d 128 --learning_rate 0.002 --batch_size 64
+python main.py --dropout 0.3 --d 128 --learning_rate 0.002 --batch_size 64
 ```
 
 Explanation of parameters:
