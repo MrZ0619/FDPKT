@@ -1,6 +1,6 @@
 # FDPKT
 
-This project is the PyTorch implementation for Beyond Binary Correctness: Dynamic Feedback-Driven Programming Knowledge Tracing.
+This project is the PyTorch implementation for "Beyond Binary Correctness: Dynamic Feedback‑Driven Programming Knowledge Tracing", accepted by [WISE 2026](https://conferences.sigappfr.org/wise2026/).
 
 # Dataset
 
