@@ -1,6 +1,6 @@
 # FDPKT
 
-This project is the PyTorch implementation for FDPKT: A Feedback-Driven Programming Knowledge Tracing Model Fusing Error Types and Pass Rates.
+This project is the PyTorch implementation for Beyond Binary Correctness: Dynamic Feedback-Driven Programming Knowledge Tracing.
 
 # Dataset
 
